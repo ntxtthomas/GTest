@@ -1,0 +1,40 @@
+ Open terminal and navigate to your desktop
+cd Desktop
+
+ Create a new folder and call it 'test'
+mkdir Test
+
+ Create two files, 'index.html' & 'styles.css'
+touch index.html
+touch styles.css
+
+ Create your git repository and make an initial commit with a comment
+git init
+git add .
+git commit -m 'not a fluid process'
+git remote add origin https://...
+git push -u origin master
+git status
+
+ Write some html in the html file, commit the changes with the message 'update html'
+git add index.html 
+git commit -m 'update html'
+git push origin master
+
+ Add some style to your css file and commit the changes with the message 'update css'
+git add styles.css 
+git commit -m 'update css'
+git push origin master 
+
+ View the logs to see your commit history
+git log
+
+ Revert to your last commit, make changes, and recommit
+git revert -n HEAD
+git add .
+git commit -m 'some message'
+
+ Write your commands in a text file and upload it below
+git add commands.txt
+git commit -m 'add of commands used'
+git push origin master
